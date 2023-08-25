@@ -11,6 +11,18 @@ namespace VideoDeDublicator
     {
         static void Main(string[] args)
         {
+
+            // Testing Hash of 2 files"
+            /*
+            var a = GenerateHash(@"Y:\Plex Media\Other Videos\Docs\Archive\sort\5\18 Yr Japanese Girl Takes BBC.mp4");
+            var b = GenerateHash(@"Y:\Plex Media\Other Videos\Docs\Archive\sort\32[soso]\18 Yr Japanese Girl Takes BBC.mp4");
+
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            
+            return;
+            */
+
             string inFolder = @"D:\Archive";
             string externalDrive = @"Y:\Plex Media\Other Videos\Docs";
             string hashLocation = @"C:\Users\Samson\OneDrive\Documents\hashes.txt";
